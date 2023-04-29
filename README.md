@@ -24,7 +24,7 @@ The inner layers for deeper processing of the inputs are known as hidden layers.
 The number of layers in MLP is not fixed and thus can have any number of hidden layers for processing. In the case of MLP, the weights are defined for each hidden layer, which transfers the signal to the next proceeding layer.Using the MLP approach lets us dive into more than two dimensions, which in turn lets us separate the outputs of XOR using multidimensional equations.Each hidden unit invokes an activation function, to range down their output values to 0 or The MLP approach also lies in the class of feed-forward Artificial Neural Network, and thus can only communicate in one direction. MLP solves the XOR problem efficiently by visualizing the data points in multi-dimensions and thus constructing an n-variable equation to fit in the output values using back propagation algorithm
 
 **Algorithm :**
-
+```
 Step 1 : Initialize the input patterns for XOR Gate
 Step 2: Initialize the desired output of the XOR Gate
 Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron 
@@ -38,6 +38,7 @@ Step 3: Repeat the  iteration  until the losses become constant and
              (iv) Modify the weight as per delta rule.
              (v)   Append the losses in a list
 Step 4 : Test for the XOR patterns.
+```
 
 ** PROGRAM** 
 ```
@@ -116,7 +117,7 @@ predict(w1,w2,test)
 test=np.array([[1],[1]])
 predict(w1,w2,test)
 ```
- **OUTPUT** 
+ ## OUTPUT 
  ### Loss Graph:
 ![234758602-00675ddb-67e1-42e6-b455-2ef7d2e8c58d](https://user-images.githubusercontent.com/93427923/235286508-86dabbad-5532-4276-ac19-153649f3ec2a.png)
 
@@ -124,5 +125,5 @@ predict(w1,w2,test)
 
 ![234758672-9371e6b6-e7c5-44ec-a251-10f7cccd00f2](https://user-images.githubusercontent.com/93427923/235286532-71b46230-d73f-4dce-8174-3f58aead6aaa.png)
 
-** RESULT**
+## RESULT
 Thus a MLP is implemented for non linear separable problem using Python.
