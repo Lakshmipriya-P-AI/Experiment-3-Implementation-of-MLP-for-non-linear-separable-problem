@@ -118,7 +118,7 @@ predict(w1,w2,test)
  ### Loss Graph:
 ![234758602-00675ddb-67e1-42e6-b455-2ef7d2e8c58d](https://user-images.githubusercontent.com/93427923/235286508-86dabbad-5532-4276-ac19-153649f3ec2a.png)
 
-### Input - Output for XOR Gate :\
+### Input - Output for XOR Gate :
 
 ![234758672-9371e6b6-e7c5-44ec-a251-10f7cccd00f2](https://user-images.githubusercontent.com/93427923/235286532-71b46230-d73f-4dce-8174-3f58aead6aaa.png)
 
